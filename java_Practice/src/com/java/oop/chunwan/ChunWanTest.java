@@ -15,12 +15,14 @@ public class ChunWanTest {
 		zhangyimou.action(songzuying);
 		zhangyimou.action(yangliping);
 		
+		
+		
+		
 		//1、模拟程序的升级：要求添加相声演员，核心业务层代码不变
 		CrossActor fenggong = new CrossActor("冯巩");
 		CrossActor guodegang = new CrossActor("郭德纲");
 		zhangyimou.action(fenggong);
 		zhangyimou.action(guodegang);
-		
 		
 		//2、要求实现main方法也不修改的情况下，实现某个角色的升级
 		//解决方案：使用反射+多态技术实现无缝升级

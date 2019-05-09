@@ -25,6 +25,7 @@ public class Printer {
 		//打印过程
 		String color = iInkbox.getColor();
 		String type = iPaper.getSize();
+		
 		System.out.println("以下文字是" + color + "颜色");
 		System.out.println("使用的纸张：" + type);
 		System.out.println("打印内容：" + content);

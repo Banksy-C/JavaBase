@@ -1,5 +1,9 @@
 package com.java.oop.chunwan;
-
+/**
+ * —›‘±∏∏¿‡
+ * @author Administrator
+ *
+ */
 public class Actor {
 
 	private String name;

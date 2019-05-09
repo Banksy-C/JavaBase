@@ -1,6 +1,6 @@
 package com.java.oop.interfacedemo.printerdemo;
 
-import com.java.oop.interfacedemo.printerdemo.impl.B5PaperImpl;
+import com.java.oop.interfacedemo.printerdemo.impl.A4PaperImpl;
 import com.java.oop.interfacedemo.printerdemo.impl.ColorInkBoxImpl;
 
 public class PrinterTest {
@@ -9,7 +9,7 @@ public class PrinterTest {
 		
 		//为打印机安装纸张 和墨盒
 		printer.setiInkbox(new ColorInkBoxImpl());
-		printer.setiPaper(new B5PaperImpl());
+		printer.setiPaper(new A4PaperImpl());
 		printer.print("测试内容");
 	}
 }

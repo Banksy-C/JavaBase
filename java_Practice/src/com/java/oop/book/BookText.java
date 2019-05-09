@@ -3,12 +3,12 @@ package com.java.oop.book;
 public class BookText {
 
 	public static void main(String[] args) {
-		// Book book = new Book("醉酒谈Java", "123-321", 98.9, 5);
-		// // 实例化图书业务对象
-		// BookBiz bookBiz = new BookBiz();
-		// bookBiz.sellBook(book);
-		//
-		// System.out.println(book.getCount());
+//		 Book book = new Book("醉酒谈Java", "123-321", 98.9, 5);
+//		 // 实例化图书业务对象
+//		 BookBiz bookBiz = new BookBiz();
+//		 bookBiz.sellBook(book);
+//		
+//		 System.out.println(book.getCount());
 
 		int[] nums = { 1, 2 };
 		Swap(nums);

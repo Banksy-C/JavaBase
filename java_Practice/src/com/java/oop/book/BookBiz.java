@@ -11,8 +11,7 @@ public class BookBiz {
 	/**
 	 * 销售书籍
 	 * 
-	 * @param book
-	 *            要销售的图书对象
+	 * @param book 要销售的图书对象
 	 * @return 如果销售成功，返回销售的数量；销售失败，返回-1
 	 */
 	public int sellBook(Book book) {
@@ -20,6 +19,7 @@ public class BookBiz {
 		// 2、图书的库存-1
 		// 3、返回销售的数量
 		if (!(book.getCount() > 1)) {
+			//不可销售
 			return -1;
 		}
 		book.setCount(book.getCount() - 1);
